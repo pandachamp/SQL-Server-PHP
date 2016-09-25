@@ -4,7 +4,7 @@ $serverName = "PURI-PC\SQLEXPRESS01"; //serverName\instanceName
 
 // Since UID and PWD are not specified in the $connectionInfo array,
 // The connection will be attempted using Windows Authentication.
-$connectionInfo = array( "Database"=>"test", "UID"=>"byakkohd", "PWD"=>"313326");
+$connectionInfo = array( "Database"=>"test", "UID"=>"testuser", "PWD"=>"testtest");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $conn ) {
